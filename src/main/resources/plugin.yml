@@ -1,0 +1,12 @@
+name: Place
+version: '${project.version}'
+main: red.fizz.plugins.place.Place
+api-version: 1.19
+authors: [ fizzdev ]
+description: the fizz place experiment v2
+website: fizz.red
+
+commands:
+  place:
+    description: RoseSMP Place admin command
+    permission: place.admin
